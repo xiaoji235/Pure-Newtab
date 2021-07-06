@@ -3,8 +3,8 @@
 
 ![ ](https://dl3.img.timecdn.cn/2021/07/06/tree.png)
 
-专门为chromium浏览器设计的新建标签页!
-背景图片是Minecraft风格的。
+* 专门为chromium浏览器设计的新建标签页!
+* 背景图片是Minecraft风格的。
 ![预览图](preview/pic.png)
 
 
