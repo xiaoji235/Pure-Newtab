@@ -1,6 +1,6 @@
 # Pure newtab
 专门为chromium浏览器设计的新建标签页!
-[预览图](preview/pic.png)
+![预览图](preview/pic.png)
 
 # 注意
 此插件不是crx类型的，使用方法可能比较繁琐，使用教程请继续看下去。
