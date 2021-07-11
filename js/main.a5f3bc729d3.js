@@ -58,7 +58,7 @@ function(t, e, n) {
     t.exports = n.p + "image/dfa58207c2e.png"
 },
 function(t, e, n) {
-    t.exports = n.p + "http://api.dsecret.com/yiyan/"
+    t.exports = n.p + "yiyan/index.html"
 },
 function(t, e, n) {
     t.exports = n.p + "image/de4a6f75b0c.png"
@@ -924,7 +924,7 @@ function(t, e, n) {
 		},
 		[t._m(0), t._v(" ")])
 	},
-	I = /*[function() {
+	I =[function() {
 		var t = this.$createElement,
 		e = this._self._c || t;
 		return e("iframe", {
@@ -932,12 +932,12 @@ function(t, e, n) {
 				src: n(136),
 				charset:"utf-8",
 				Id: "content",
-				style:"align-items: center; position: fixed; left: 30%; wi"
+				style:""
 			}
 			
 		},
 		[this._v(" ")])
-	}];一言api调用*/
+	}];
 	
 	
 	
