@@ -43,7 +43,8 @@
 
 ### Tips
 * 请保留原作者名称哦！
-* 如果不喜欢里面的图片，你可以替换/css/image/bg.png图片或者到css里面替换图片链接！
+* 如果不喜欢动态背景，想用普通背景，请下载[`1.0.1`](https://github.com/xiaoji235/Pure-Newtab/releases/tag/1.0.1%E7%89%88%E6%9C%AC)版本！
+* 如果不喜欢这个动态背景，你可以在index.html更换里面的视频链接！
 * 嫌弃勿喷！
 
 ### 版权
