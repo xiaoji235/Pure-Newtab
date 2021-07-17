@@ -30,11 +30,13 @@ iframe{
     margin: 0 auto;
 }
 
+/*取消背景*/
+/*
 body{
     background-image: url(image/bg.png);
     background-attachment: fixed;
     background-size: 100% auto;
-}
+}*/
 
 :focus{
 outline:0
