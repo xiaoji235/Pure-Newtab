@@ -14,20 +14,17 @@
 <body>
 <div class="v">
     <video class="f"  id="bgvid" playsinline="" autoplay muted loop="">
-        <source src="https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/tree/main/video/bg.mp4" type="video/mp4">
+        <source src="https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/video/bg.mp4" type="video/mp4">
     </video>
 <style>
   *{margin:0 auto;padding:0 auto;}
   .f{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width:100%;
+    weight:100%;
+    min-height: 100%;
+    object-fit: cover;
     z-index: -9999;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
     -webkit-transition: 1s opacity;
     transition: 1s opacity;
 	background-color:skyblue;
