@@ -5,7 +5,7 @@
 
 * 专门为chromium浏览器设计的新建标签页!
 * 动态背景。
-![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/video/pic.png)
+![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/pic.png)
 
 ### 版本更新
 - 当前版本：`1.0.2`
