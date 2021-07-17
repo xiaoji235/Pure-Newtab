@@ -4,14 +4,14 @@
 ![ ](https://dl3.img.timecdn.cn/2021/07/06/tree.png)
 
 * 专门为chromium浏览器设计的新建标签页!
-* 背景图片是Minecraft风格的。
-![预览图](preview/pic.png)
+* 动态背景。
+![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/video/pic.png)
 
 ### 版本更新
-- 当前版本：`1.0.1`
-- 更新日期：2021-07-11
+- 当前版本：`1.0.2`
+- 更新日期：2021-07-17
 - 修改内容：
-  - 添加一言api，如果不喜欢，可以下载[`1.0.0`](https://github.com/xiaoji235/Pure-Newtab/releases/tag/1.0.0%E7%89%88%E6%9C%AC)
+  - 添加动态壁纸，如果不喜欢，可以下载[其他版本](https://github.com/xiaoji235/Pure-Newtab/releases)
 
 ### 注意
 此源码不是crx插件，仅仅是网页源码！若想用插件来锁定主页的话请下载！
