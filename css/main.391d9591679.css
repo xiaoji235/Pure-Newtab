@@ -30,10 +30,15 @@ iframe{
     margin: 0 auto;
 }
 
-/*取消背景*/
-/*
-body{
-    background-image: url(image/bg.png);
+iframe#content{
+    width: 100%;
+    padding-top: 0;
+}
+
+
+/*取消普通背景*/
+/*body{
+    background-image: url(https://dl3.img.timecdn.cn/2021/07/06/bg.png);
     background-attachment: fixed;
     background-size: 100% auto;
 }*/
@@ -144,7 +149,7 @@ display:inline-block;
 vertical-align:top;
 width:90.28%;
 backdrop-filter: blur(10px);
-background-color: #ffffff50;
+background-color: #ffffff30;
     border-radius: 10px 0 0 10px;
 -webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
 box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
@@ -237,7 +242,7 @@ display:inline-block;
 vertical-align:top;
 width:9.72%;
 height:48px;
-background-color:#ffffff50;
+background-color:#ffffff32;
 backdrop-filter: blur(10px);
 border-radius:0 10px 10px 0;
 -webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
@@ -248,7 +253,7 @@ cursor:pointer
 }
 
 div.Search>div>button[data-v-0b1f3c5b]:hover{
-background-color:#ffffff50
+background-color:#ffffff30
 }
 
 div.Search>div:hover>div[data-v-0b1f3c5b]{
@@ -271,7 +276,8 @@ margin-top:40px
 div.CommonSite[data-v-0adcae05]{
 width:960px;
 margin:100px auto;
-text-align:center
+text-align:center;
+margin-bottom: 70px;
 }
 
 div.CommonSite.hide[data-v-0adcae05]{
