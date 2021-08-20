@@ -5,13 +5,14 @@
 
 * 专门为chromium浏览器设计的新建标签页!
 * 动态背景。
-![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/pic.png)
+![预览图](https://dl.img.timecdn.cn/2021/07/06/preview.png)
 
 ## 版本更新
-- 当前版本：`1.0.2`
-- 更新日期：2021-07-17
+- 当前版本：`1.0.3`
+- 更新日期：2021-08-23
 - 修改内容：
-  - 添加动态壁纸，如果不喜欢，可以下载[其他版本](https://github.com/xiaoji235/Pure-Newtab/releases)
+  - 自适应不同分辨率的电脑，部分平板也可使用！
+  - 若喜欢动态背景，可以使用[`1.0.2`](https://github.com/xiaoji235/Pure-Newtab/releases/tag/1.0.2%E7%89%88%E6%9C%AC)版本
 
 ## 注意
 此源码不是crx插件，仅仅是网页源码！若想用插件来锁定主页的话请下载！
@@ -43,7 +44,7 @@
 
 ### Tips
 * 请保留原作者名称哦！
-* 如果不喜欢动态背景，想用普通背景，请下载[`1.0.1`](https://github.com/xiaoji235/Pure-Newtab/releases/tag/1.0.1%E7%89%88%E6%9C%AC)版本！
+* 若喜欢动态背景，可以使用[`1.0.2`](https://github.com/xiaoji235/Pure-Newtab/releases/tag/1.0.2%E7%89%88%E6%9C%AC)版本
 * 如果不喜欢这个动态背景，你可以在index.html更换里面的视频链接！
 * 嫌弃勿喷！
 
