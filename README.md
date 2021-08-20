@@ -5,7 +5,7 @@
 
 * 专门为chromium浏览器设计的新建标签页!
 * 动态背景。
-![预览图](https://dl.img.timecdn.cn/2021/07/06/preview.png)
+![预览图](https://dl2.img.timecdn.cn/2021/08/20/-2021-08-20-165811.png)
 
 ## 版本更新
 - 当前版本：`1.0.3`
