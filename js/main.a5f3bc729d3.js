@@ -35,13 +35,13 @@ function(t, e, n) {
     t.exports = n.p + "logo/github.png"
 },
 function(t, e) {
-    t.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAjVBMVEWXyzr////j8cv+/vydzkXu9t/l8s/y+eiz2W+u1mXM5p++3oS93oKazD+s1WLK5ZvH45afz0r6/Pb1+uzg78Wp1FzX67Oi0E/8/fnv9+Hr9drC4Iun01ik0VTp9Nfe7sG423j4+/L3+/Cr1WDo89Pc7b3T6a2w2GrZ7LjS6KrP56XF4pG63Hy22nXw9+PC1Wc7AAACp0lEQVRo3u3X23aiMBQG4C2Ek4ISwhlBUBAL6vs/3pCEWtearkoYuZnmu5A0zc4vMcACJEmSJEmSpN/IQTjKg1EeYceBd4msa99dlPR+jGN19USNPaIVfrjubycMs52ysDiuplCJ/mHnMxJCshKjJutIbP0/1NUMng0Cwm++qFcRYiSalqaalhBCqvibQVeYzHx8Nc0Pd/3VPOURcv46XRztLdPu1xfl/hl4xDCVzysugTN5fc2a12STKyo23gURjsKKDjBRzoanICZnS5bARGhHtSBoQ6symAW3m6wM4N0inyqBKnV+xZAOs5W/0H+5EBwoPuTqD80mgiwc7CZf7SuKDnea1cORrh9ikQpE6tfPlrDNjkCnR008ZM1ahh6zFPwVMu5yCwBa1gphdkjC6hywWc/1KaRkPWcAuPC4+SHGOKXFejZPIQ6hjQoB9vjcoiH7YzXIfgyBbuzK2LEXDhn9HLJnrRpSeojxMiF8TpWfSAPCIfiDal+E8M3gsU9TPGTLCtcvQtDXo9mApULg/AjZLRdy+syIo+VCoBhDfFgwJBtDyiVDEN9axFkyZLxtdbBoiMu6bRnyn4fYi4Twa9rA42zmMiElmzMmrEOHZULg+rifqw16EaIIhTgmFQGFMoWo9NHk1bU+dJX2wAIOs4EIuJz+EcBMCGF+l9rD++RpWhSFC0/M+uh5VQ4/aYai9AATYfW7l6ZX7+2m4AuHwcYrCAQEvCiEqcant7Ez9w5MgILy7PGaG0yV8wp+jaTK5bx2M/tmttYp2DPB1mrNctO73bnRtUp9DC9gOpuViSNC+89M5mQoOQhxbqEhdDpx2m1hhujmhjWJVy94hnLuWwz/AuVWme26sPH1WkuS5H4fPtJaOTTDftjctpEDkiRJkiRJkvRefwDlFzUYFxyNSAAAAABJRU5ErkJggg=="
+    t.exports = "logo/zhihu.png"
 },
 function(t, e, n) {
-    t.exports = n.p + "logo/pinterest.png"
+    t.exports = n.p + "logo/aiqiyi.png"
 },
 function(t, e, n) {
-    t.exports = n.p + "logo/pinterest.png"
+    t.exports = n.p + "logo/weibo.png"
 },
 function(t, e, n) {
     "use strict";
@@ -49,7 +49,7 @@ function(t, e, n) {
     n.n(i).a
 },
 function(t, e, n) {
-    t.exports = n.p + "image/1394770d2b7.png"
+    t.exports = n.p + "logo/toutiao.png"
 },
 function(t, e, n) {
     t.exports = n.p + "image/70b2804abfd.png"
@@ -620,11 +620,26 @@ function(t, e, n) {
         icon: n(128),
         url: "https://github.com/"
     },
-    {
-        name: "Pinterest",
+	{
+        name: "知乎",
+        icon: n(129),
+        url: "https://www.zhihu.com/"
+    },
+	{
+        name: "爱奇艺",
         icon: n(130),
-        url: "https://www.pinterest.com/"
-    }
+        url: "https://www.iqiyi.com/"
+    },
+	{
+        name: "微博",
+        icon: n(131),
+        url: "https://weibo.com/"
+    },
+	{
+        name: "今日头条",
+        icon: n(133),
+        url: "https://www.toutiao.com/"
+    },
 ];
     function m(t) {
         return function(t) {
