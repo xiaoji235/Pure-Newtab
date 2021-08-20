@@ -36,12 +36,11 @@ iframe#content{
 }
 
 
-/*取消普通背景*/
-/*body{
+body{
     background-image: url(https://dl3.img.timecdn.cn/2021/07/06/bg.png);
     background-attachment: fixed;
-    background-size: 100% auto;
-}*/
+    background-size: cover;
+}
 
 :focus{
 outline:0
