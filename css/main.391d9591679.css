@@ -405,7 +405,8 @@ cursor:pointer
 }
 
 div.CommonSite>nav>span:hover>i[data-v-0adcae05]{
-background-color:rgba(1,1,1)
+    background-color: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(10px);
 }
 
 div.CommonSite>nav>span>i[data-v-0adcae05]{
