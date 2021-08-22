@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" ondragstart="return false" oncontextmenu="return false" onselectstart="return false">
 
 <head>
     <meta charset="UTF-8">
@@ -52,13 +52,23 @@
             line-height: 32px;
             height: 32px;
         }
+/**防选中**/
+*{
+moz-user-select: -moz-none;
+-moz-user-select: none;
+-o-user-select:none;
+-khtml-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
 
 
 
     </style>
 </head>
 
-<body>
+<body ondragstart="return false" oncontextmenu="return false" onselectstart="return false">
     <div class="container">
         <div class="info">
             <div id='weather' class='weather'>
@@ -116,7 +126,7 @@
                 } = obj.forecast;
                 if (weatherIndex) {
                     $('#weather_icon').style.display = 'block';
-                    $('#weather_icon').setAttribute('src', `./assert/${weatherIndex}.svg`);
+                    $('#weather_icon').setAttribute('src', `weather/${weatherIndex}.svg`);/*这里可能要修改一下*/
                 }
                 let temperature_interval = '';
                 if (!temperature_pm || !temperature_am) return;
