@@ -4,7 +4,7 @@
 ![ ](https://dl3.img.timecdn.cn/2021/07/06/tree.png)
 
 * 专门为chromium浏览器设计的新建标签页!
-* ![预览图]()
+* ![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
 
 ## 版本更新
 - 当前版本：`1.0.4`
