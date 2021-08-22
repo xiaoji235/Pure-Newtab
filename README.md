@@ -34,7 +34,8 @@
 ## 其他
 
 ### 缺陷
-由于是纯小白，动静壁纸没有一键更换功能，更换背景需要修改index.html和css/main.391d9591679.css！
+- 由于是纯小白，动静壁纸没有一键更换功能，更换背景需要修改index.html和css/main.391d9591679.css！
+- 源码暂时不支持移动端屏幕，[这里](https://newtab.rth.app)目前已适配移动端，可以先用此链接，后期源码会跟上进度！
 
 ### 反馈
 如果有问题或其他Bug🪲，请在[issues](https://github.com/xiaoji235/Pure-Newtab/issues)提出，看我是否能够修改（我也只是一个萌新，不怎么会html、js等），谢谢!
