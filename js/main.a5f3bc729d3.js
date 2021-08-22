@@ -52,7 +52,7 @@ function(t, e, n) {
     t.exports = n.p + "logo/toutiao.png"
 },
 function(t, e, n) {
-    t.exports = n.p + "image/70b2804abfd.png"
+    t.exports = n.p + "weather/index.html"
 },
 function(t, e, n) {
     t.exports = n.p + "image/dfa58207c2e.png"
@@ -182,9 +182,15 @@ function(t, e, n) {
         },
         [i("iframe", {
             attrs: {
-                src: n(123),
+                src: n(134),
+				Class: "weather",
             }
-        }), t._v(" "), i("div", [i("div", {
+        }),i("iframe", {
+            attrs: {
+                src: n(123),
+				Class: "time",
+            }
+        }),t._v(" "), i("div", [i("div", {
             class: {
                 result: 1 === t.pop && t.searchResult.length > 0
             }
