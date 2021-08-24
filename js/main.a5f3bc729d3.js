@@ -225,7 +225,9 @@ function(t, e, n) {
                     return ! e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null: t.searchEnter()
                 }]
             }
-        }), t._v(" "), i("ol", t._l(t.searchResult, (function(e, n) {
+        }), t._v(" "), i("ol", {
+            staticClass: "result",
+        }, t._l(t.searchResult, (function(e, n) {
             return i("li", {
                 class: {
                     active: n === t.searchResultIndex
