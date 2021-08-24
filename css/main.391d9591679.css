@@ -158,7 +158,7 @@ display:inline-block;
 vertical-align:top;
 width:90.28%;
 backdrop-filter: blur(10px);
-background-color: #ffffff30;
+background-color: rgba(255, 255, 255, 0.20);
     border-radius: 10px 0 0 10px;
 -webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
 box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
@@ -251,7 +251,7 @@ display:inline-block;
 vertical-align:top;
 width:9.72%;
 height:48px;
-background-color:#ffffff32;
+background-color:rgba(255, 255, 255, 0.20);
 backdrop-filter: blur(10px);
 border-radius:0 10px 10px 0;
 -webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);
@@ -283,7 +283,7 @@ margin-top:40px
 }
 
 div.CommonSite[data-v-0adcae05]{
-width:960px;
+width:95%;
 margin:100px auto;
 text-align:center;
 margin-bottom: 70px;
@@ -583,6 +583,16 @@ padding-top:40px
     background: #8D8D8D;
 }
 
+.icon{
+    background-color: rgb(255 255 255 / 0%) !important;
+    font-weight: bold;
+}
+
+div.CommonSite>nav>a>div.icon[data-v-0adcae05]{
+	    height: 30px;
+    font-size: 30px;
+}
+
 /**防选中**/
 *{
 moz-user-select: -moz-none;
@@ -592,4 +602,55 @@ moz-user-select: -moz-none;
 -webkit-user-select:none;
 -ms-user-select:none;
 user-select:none;
+}
+
+/**手机端样式**/
+@media screen and (max-width:740px ) {
+	div.Search>div>button[data-v-0b1f3c5b]{
+	width:15%;
+	}
+	div.Search>div[data-v-0b1f3c5b]{
+		width: 90%;
+		margin-left: 3%;
+	}
+}
+
+@media screen and (max-width:360px ) {
+	div.Search>div>div>ol>li[data-v-0b1f3c5b]{
+		font-size:15px;
+		line-height:32px;
+	}
+	div.App[data-v-617ab0be]{
+		    padding-top: 20px;
+			    padding-bottom: 30px;
+	}
+	div.CommonSite>nav>a[data-v-0adcae05]{
+		    width: 85px;
+	}
+	div.CommonSite[data-v-0adcae05]{
+		margin-bottom:35px !important;
+		margin: 70px auto;
+		height: auto;
+	}
+	div.Search>div[data-v-0b1f3c5b]{
+		    margin-top: 25px;
+	}
+	.Yiyan{
+		margin-right: 1%;
+	}
+	body{
+		background-size: 415%;
+	}
+}
+
+@media screen and (max-width:300px ) {
+	iframe#content{
+        height:auto;
+}
+}
+
+/**动画**/
+div.App>p.copyright[data-v-617ab0be], div.CommonSite[data-v-0adcae05]{
+	opacity: 0;
+    transition: all 1s linear;
 }
