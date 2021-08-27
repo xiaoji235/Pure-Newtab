@@ -167,10 +167,7 @@ function(t, e, n) {
         return e("div", {
             staticClass: "App"
         },
-        [e("Search"), this._v(" "), e("CommonSite"), this._v(" "), e("AdSite"), this._v(" "), e("p", {
-            staticClass: "copyright"
-        },
-        [this._v("Pure 起始页")])], 1)
+        [e("Search"), this._v(" "), e("CommonSite"), this._v(" "), e("AdSite"), this._v(" ")], 1)
     });
     a._withStripped = !0;
     var c = function() {
@@ -180,17 +177,7 @@ function(t, e, n) {
         return i("div", {
             staticClass: "Search"
         },
-        [i("iframe", {
-            attrs: {
-                src: n(134),
-				Class: "weather",
-            }
-        }),i("iframe", {
-            attrs: {
-                src: n(123),
-				Class: "time",
-            }
-        }),t._v(" "), i("div", [i("div", {
+        [i(),t._v(" "), i("div", [i("div", {
             class: {
                 result: 1 === t.pop && t.searchResult.length > 0
             }
@@ -225,9 +212,7 @@ function(t, e, n) {
                     return ! e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null: t.searchEnter()
                 }]
             }
-        }), t._v(" "), i("ol", {
-            staticClass: "result",
-        }, t._l(t.searchResult, (function(e, n) {
+        }), t._v(" "), i("ol", t._l(t.searchResult, (function(e, n) {
             return i("li", {
                 class: {
                     active: n === t.searchResultIndex
@@ -936,31 +921,8 @@ function(t, e, n) {
 	b = (n(132), Object(u.a)(k, h, [], !1, null, "0adcae05", null));
 	b.options.__file = "src/components/CommonSite/index.vue";
 	var y = b.exports,
-	x = function() {
-		var t = this,
-		e = t.$createElement;
-		return (t._self._c || e)("div", {
-			staticClass: "Yiyan",
-			on: {
-				click: t.report
-			}
-		},
-		[t._m(0), t._v(" ")])
-	},
-	I =[function() {
-		var t = this.$createElement,
-		e = this._self._c || t;
-		return e("iframe", {
-			attrs: {
-				src: n(136),
-				charset:"utf-8",
-				Id: "content",
-				style:""
-			}
-			
-		},
-		[this._v(" ")])
-	}];
+	x = function() {},
+	I =[];
 	
 	
 	
