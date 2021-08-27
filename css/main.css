@@ -742,13 +742,16 @@ button#bg2 {
 	}
 }
 
-/*宽*/
+/*高*/
 @media screen and (max-height:730px) {
 	.CommonSite{
 		margin:20% auto
 	}
 	.di{
 		font-size: 0
+	}
+	.CommonSite{
+		    margin: 10% auto;
 	}
 }
 
