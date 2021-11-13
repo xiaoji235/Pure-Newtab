@@ -4,8 +4,6 @@ const hour = document.getElementById("hour");
 const minute = document.getElementById("minute");
 const second = document.getElementById("second");
 const progress = document.querySelector(".progress-bar");
-const pause = document.getElementById("pause");
-const reset = document.getElementById("reset");
 const toasts = document.getElementsByClassName("toast");
 
 var interval;
@@ -44,17 +42,5 @@ function clearClass(className) {
     toasts[i].classList.remove(className);
   }
 }
-
-pause.addEventListener("click", () => {
-  clearInterval(interval);
-  clearClass('show');
-  document.querySelector('div[data-type="pause"]').classList.add("show");
-});
-
-reset.addEventListener("click", () => {
-  interval = setInterval(getCurrentTime, 1000);
-  clearClass('show');
-  document.querySelector('div[data-type="live"]').classList.add("show");
-});
 
 interval = setInterval(getCurrentTime, 1000);
