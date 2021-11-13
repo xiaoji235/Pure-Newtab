@@ -7,7 +7,7 @@
 * ![预览图](https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/preview/img.png)
 
 ## 版本更新
-- 当前版本：`1.1.0`
+- 当前版本：`1.0.7`
 - 更新日期：2021-08-27
 - 修改内容：
   - 优化底层设计，使网页加载更快
@@ -39,6 +39,7 @@
 ### 缺陷
 - 由于代码不通用的原因可能不太兼容部分浏览器！
 - 部分分辨率设备可能会显示不完整！
+- 由于滤镜代码原因暂不支持Mozilla内核和IE内核！
 
 ### 反馈
 如果有问题或其他Bug🪲，请在[issues](https://github.com/xiaoji235/Pure-Newtab/issues)提出，看我是否能够修改（我也只是一个萌新，不怎么会html、js等），谢谢!
