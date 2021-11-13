@@ -1,10 +1,22 @@
 body{
 	background-color:#333333;
-	padding: 0;
-	margin: 0;
-	background-image: url("image/bg.png");
-	background-attachment:fixed;
-	background-size:cover;
+}
+.backg{
+	opacity: 0;
+	transition: all 350ms linear;
+}
+.lm-animated-bg {
+	position: fixed;
+    width: auto;
+    height: auto;
+    top: -28px;
+    left: -28px;
+    right: -28px;
+    bottom: -28px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1
 }
 @font-face {
 	font-family:iconfont;src:url("fonts/font.woff")
@@ -326,13 +338,15 @@ padding-left: 2px;
 	box-sizing: border-box;
 	padding: 20px 14px 14px;
 	position: relative;
-	overflow: hidden
+	overflow: hidden;
+	text-decoration: none
 }
 
 .CommonSite>nav>a[data-v-0adcae05]:hover {
 	background-color: rgb(255 255 255 / 10%);
 	border-radius: 10px;
 	backdrop-filter: blur(10px);
+	box-shadow: 0 0 10px 0px rgb(0 0 0 / 10%);
 }
 
 .CommonSite>nav>a:hover>i{
@@ -348,13 +362,15 @@ padding-left: 2px;
 .CommonSite>nav>a>div.icon{
 	margin: 0 auto;
 	width: 24px;
-	height: 24px;
-	font-size: 14px;
+	height: 29px;
+	font-size: 33px;
 	text-align: center;
 	line-height: 24px;
 	background-color: #132d23;
 	border-radius: 2px;
-	color: #fff
+	color: #fff;
+	font-weight: 600;
+    padding-top: 2px;
 }
 
 .CommonSite>nav>a>p{
@@ -401,6 +417,7 @@ padding-left: 2px;
 	transition: all 100ms linear;
 	background-color: rgb(255 255 255 / 10%);
 	backdrop-filter: blur(10px);
+	box-shadow: 0 0 10px 0px rgb(0 0 0 / 10%);
 }
 
 .CommonSite>nav>span>i{
@@ -596,6 +613,9 @@ padding-left: 2px;
 	text-overflow: ellipsis;
 	text-align: center
 }
+.icon{
+	background-color:transparent !important;
+}
 
 /**一言**/
 .yiyan{
@@ -614,7 +634,39 @@ div#hitokoto {
     text-align: center;
 }
 
+/**意见反馈**/
+div#yijian {
+	position:fixed;
+	margin: auto;
+	padding:10px;
+	background-color: #ffffffd0;
+	backdrop-filter: blur(10px);
+	border-radius:10px;
+	height: 173px;
+	width: 300px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition:all .2s;
+	box-shadow: 0 0 20px 10px rgb(0 0 0 / 10%);
+	z-index: 10
+}
 /**自定义背景控件**/
+
+div#setbg {
+	position:fixed;
+	background-color: #fff0;
+	backdrop-filter: blur(10px);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition:all .3s;
+	z-index: 9
+}
 div#settingpage {
 	position:fixed;
 	margin: auto;
@@ -628,7 +680,8 @@ div#settingpage {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	transition:all .2s;
+	transition:all .3s;
+	box-shadow: 0 0 20px 10px rgb(0 0 0 / 10%);
 	z-index: 10
 }
 
@@ -735,6 +788,9 @@ button#bg2 {
 	div#settingpage{
 		width: 85%;
 	}
+	div#yijian{
+		width: 85%;
+	}
 }
 @media screen and (max-width:280px) {
 	div.Search>div>button[data-v-0b1f3c5b]{
@@ -749,9 +805,6 @@ button#bg2 {
 	}
 	.di{
 		font-size: 0
-	}
-	.CommonSite{
-		    margin: 10% auto;
 	}
 }
 
