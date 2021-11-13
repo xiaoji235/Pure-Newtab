@@ -5,15 +5,17 @@ backurl=localStorage.getItem("backurl")
 
 
 if(backurl){
-	document.getElementsByTagName("body")[0].style="background-image: url("+backurl+");"
+	document.getElementsByTagName("bg")[0].style="background-image: url("+backurl+");"
 }else{
-	document.getElementsByTagName("body")[0].style="background-image: url(https://dl3.img.timecdn.cn/2021/07/06/bg.png);"
+	document.getElementsByTagName("bg")[0].style="background-image: url(https://dl3.img.timecdn.cn/2021/07/06/bg.png);"
 }
 
 
 function openset(){
 	document.getElementById("settingpage").style="display:block;opacity:0"
 	setTimeout(function(){document.getElementById("settingpage").style="display:block;opacity:1"},100)
+	document.getElementById("setbg").style="display:block;opacity:0"
+	setTimeout(function(){document.getElementById("setbg").style="display:block;opacity:1"},100)
 }
 
 function savebackimg(){
@@ -26,5 +28,7 @@ function savebackimg(){
 
 function closeset(){
 	document.getElementById("settingpage").style="display:block;opacity:0"
-	setTimeout(function(){document.getElementById("settingpage").style="display:none"},200)
+	setTimeout(function(){document.getElementById("settingpage").style="display:none"},100)
+	document.getElementById("setbg").style="display:block;opacity:0"
+	setTimeout(function(){document.getElementById("setbg").style="display:none;opacity:0"},100)
 }
