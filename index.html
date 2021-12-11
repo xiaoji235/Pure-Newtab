@@ -27,7 +27,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 <link href="favicon.ico" rel="SHORTCUT ICON">
-<link href="css/main.css" rel="stylesheet"></head>
+<link href="css/day.css" id="theme_css" rel="stylesheet"></head>
 
 	
 <body ondragstart="return false" oncontextmenu="return false" onselectstart="return false">
@@ -35,6 +35,7 @@
     <div class="backg"><bg class="lm-animated-bg" style="background-image: url(css/image/bg.png);"></bg></div>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/bg.js"></script>
+
 
 	<!--天气-->
 	<div id="weather">
@@ -130,7 +131,28 @@
 </div>
 	
 	
-	<!--搜索框-->
+	
+	<!--搜索-->
+    <div id="search">
+        <div id="search-box">
+            <span class="search-icon" style="z-index: 6"></span>
+            <input type="text" id="s-txt" class="s-key" placeholder="" autocomplete="off" />
+            <button data-v-0b1f3c5b="" class="iconfont" id="search-btn"></button>
+        </div>
+        <div class="box search-hot-text" id="box" style="display: none">
+            <ul></ul>
+        </div>
+        <div class="search-engine">
+            <ul class="search-engine-list">
+            </ul>
+        </div>
+    </div>
+	<script type="text/javascript" src="js/menutext.js?v=0.2.4.1"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	
+	
+	
+	<!--收藏-->
 <div id="app"></div>
   <script src="js/avatar.js"></script>
   <script src="js/action.js"></script>
@@ -141,19 +163,33 @@
   <div id="settingpage" style="display:none">
 	  背景图像（使用网络图片或图床图片）：<br>
 	  <input id="backimg" placeholder="请输入完整URL，以https://开头">
-<div id="bgb"><button id="bg1" onclick="savebackimg()">保存</botton><button id="bg2" onclick="closeset()">取消</botton></div>
+<div id="bgb" style="text-align:center"><button id="bg1" onclick="savebackimg()">保存</botton></div>
+<p>暗黑模式（状态）：</p>
+
+<div id="bgb"><button id="nightbtn">关闭</button><button id="daybtn">开启</button></div>
+<script src="js/mode.js"></script>
+
+
+<!--设置关闭按钮-->
+<div style="text-align: center; padding-top:20px">
+<button style="width:50%" id="bg2" onclick="closeset()">退出设置</botton>
+</div>
+
+
+  </div>
   </div>
 	  <div id="setbg" style="display:none"></div>
 
 	<!--意见-->
-	<script src="js/advice.js"></script>
-<div id="yijian" style="display:none;position:">
-	<div style="width:100%">
-			  <p style="margin:0;text-align:center">关于</p>
-	          <p style="text-align:center">作者：小基同學</p>
-		  <p style="margin:0;text-align:center">反馈</p>
-		  <p style="text-align:center">在哪找的主页就在那直接问哦</p>
-	</div><button style="width:100%" id="bg2" onclick="closeyj()">OK</botton></div>
+	<script src="https://cdn.jsdelivr.net/gh/xiaoji235/Pure-Newtab/js/advice.js"></script>
+<div id="yijian" style="display:none;position:fixed;">
+	<div style="width:100%; height: 95%; text-align: center">
+			<strong><p id="title" align="center" style="font-size:20px">关于</p></strong>
+			  <div style="background-color:#ffff; border-radius:10px; height:80%; margin-bottom:15px"><embed src="https://xiaoji235.github.io/notice/index.html" width="95%" height="95%" style="scrolling:no;"></embed></div>
+			  <button style="width:50%" id="bg2" onclick="closeyj()">OK</botton>
+	</div>
+	</div>
+
 <script>
 !function(e){function r(r){for(var n,l,a=r[0],f=r[1],i=r[2],c=0,s=[];c<a.length;c++)l=a[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,i||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var f=t[a];0!==o[f]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="";var a=window.webpackJsonp=window.webpackJsonp||[],f=a.push.bind(a);a.push=r,a=a.slice();for(var i=0;i<a.length;i++)r(a[i]);var p=f;t()}([]);
 </script>
@@ -182,10 +218,15 @@
 		}
 		xhr.send();
 	</script>
+	<script src="js/notice.js"></script>
 
 	
 	<!--页脚-->
-	<div class="foot"><a href="https://github.com/xiaoji235" style="float:left;color:#dfdfdf;text-decoration: none">Pure起始页</a>&nbsp;<p style="padding:0 5px">|</p>&nbsp;<a href="#" style="float:right;color:#dfdfdf;text-decoration: none"><buttom onclick="openyj()">关于与反馈</buttom></a></div>
+	<div class="foot"><a class="footp1" href="https://github.com/xiaoji235" style="float:left;text-decoration: none">Pure起始页</a>
+&nbsp;
+<p id="footp" style="padding:0 5px">|</p>
+&nbsp;
+<a class="footp2" href="#" style="float:right;text-decoration: none"><buttom onclick="openyj()">关于与反馈</buttom></a></div>
 	
 	
 	</body>
