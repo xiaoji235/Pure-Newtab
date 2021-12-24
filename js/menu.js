@@ -29,14 +29,26 @@ const searchEngines = [{
     "url": "https:\/\/cn.bing.com\/search?q="
 },
 {
-    "id": 19,
+    "id": 5,
     "name": "Github",
     "img": "url('search\/github.svg')",
     "url": "https:\/\/github.com\/search?q="
 },
 {
-    "id": 7,
+    "id": 6,
     "name": "Yandex",
     "img": "url('search\/yandex.svg')",
     "url": "https:\/\/yandex.com\/search\/?text="
+},
+{
+    "id": 7,
+    "name": "谷歌镜像",
+    "img": "url('search\/google.svg')",
+    "url": "https://xn--flw351e.ml/search?q="
+},
+{
+    "id": 8,
+    "name": "F 搜索",
+    "img": "url('search\/fsou.svg')",
+    "url": "https://fsou.cc/search?q="
 }];
