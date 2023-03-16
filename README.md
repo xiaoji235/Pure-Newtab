@@ -1,5 +1,5 @@
 # Pure Newtab
-
+此项目暂停更新，长期维护版本请前往：[这里](https://github.com/xiaoji235/Pure-Newtab-Extension)
 
 ![ ](https://dl3.img.timecdn.cn/2021/07/06/tree.png)
 
